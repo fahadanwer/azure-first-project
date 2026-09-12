@@ -1,0 +1,9 @@
+
+# git should ignore following directories and files
+
+.terraform/
+
+*.tfstate
+*.tfstate.*
+
+*.tfvars
