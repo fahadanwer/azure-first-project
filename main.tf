@@ -190,7 +190,7 @@ resource "azurerm_linux_virtual_machine" "learning" {
 
   admin_ssh_key {
     username   = "azureuser"
-    public_key = file("~/.ssh/id_rsa.pub")
+    public_key = file("~/.ssh/id_rsa.pub") # commenting temporarily for GitHub Actions failed workflow
   }
 
   os_disk {
